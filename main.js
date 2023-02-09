@@ -65,8 +65,12 @@ Numberbuttons.forEach(button=>{
 button.addEventListener('click', (e)=>{
   display.textContent += e.target.textContent
   displayValue = display.textContent
+  
 })
 })
+
+
+
 
 //You’ll need to store the first number that is input into the calculator when a user presses an operator
 

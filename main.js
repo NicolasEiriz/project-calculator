@@ -103,7 +103,7 @@ equalOperator.addEventListener('click', ()=>{
   const result = operate(operatorSelected, firstNumber, Number(display.textContent))
 
   populateDisplay(`${firstNumber} ${operatorSelected} ${display.textContent} = ${result}`)
-  document.querySelector('.message').classList.toggle('toogle')
+  
 })
 
 

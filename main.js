@@ -107,6 +107,11 @@ add, subtract, multiply, divide*/
           this.screen.value = 0
           break;
 
+        case '.':
+        this.display += '.'
+        this.screen.value = this.display
+        break;
+
       default:
 
       this.selectOperator(value)
